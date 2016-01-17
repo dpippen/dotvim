@@ -80,3 +80,34 @@
 
     automatically adjusts 'shiftwidth' and 'expandtab' heuristically
     goal is that by installing this plugin, you can remove all indenting related configuration from your vimrc.
+
+#### aws-vim
+
+    https://github.com/m-kat/aws-vim
+
+    completion helper for Cloud Formation Templates
+    works best with ultisnips 
+
+    let g:AWSVimValidate = 1
+    let g:UltiSnipsSnippetDirectories=["UltiSnips", "./bundle/aws-vim/snips"]
+
+#### ultisnips
+
+    https://github.com/SirVer/ultisnips
+
+    tab completion in files
+    compliments aws-vim
+
+    https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
+
+    http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/
+
+
+#### vim-snippets
+
+    https://github.com/honza/vim-snippets
+
+    snippets files for various programming languages
+    compliments ultisnips
+
+

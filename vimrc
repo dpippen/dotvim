@@ -3,11 +3,24 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+      " force *.md to assume markdown not modula-2
+"autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
       " solarized config
 set background=dark
 colorscheme solarized
+let g:solarized_termcolors=16
+color solarized
 
+      " aws config
+let g:AWSVimValidate = 1
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "./bundle/aws-vim/snips"]
+
+      " ultisnips config
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
 
       " essential vim
 "set nocompatible

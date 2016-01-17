@@ -13,3 +13,9 @@
 [submodule "bundle/vim-sleuth"]
 	path = bundle/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth.git
+[submodule "bundle/aws-vim"]
+	path = bundle/aws-vim
+	url = https://github.com/m-kat/aws-vim.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
