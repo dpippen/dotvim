@@ -3,14 +3,10 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
 
       " solarized config
-"syntax enable
 set background=dark
 colorscheme solarized
-"colorscheme ir_black
 
 
       " essential vim

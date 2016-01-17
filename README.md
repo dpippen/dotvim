@@ -30,6 +30,16 @@
     git submodule init
     git submodule update
 
+### Extending
+
+  cd ~/.vim
+  git submodule add https://github.com/altercation/vim-colors-solarized.git bundle/vim-colors-solarized
+  git submodule add https://github.com/elzr/vim-json bundle/vim-json.git    bundle/vim-json
+  git submodule add https://github.com/tpope/vim-sensible.git               bundle/vim-sensible
+  git submodule add https://github.com/tpope/vim-sleuth.git                 bundle/vim-sleuth
+  git commit -m "adding submodules: solarized, json, sensible, sleuth"
+  git push origin master
+
 ### Plugins
 #### fugitive
 
