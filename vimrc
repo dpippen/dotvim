@@ -7,8 +7,10 @@ filetype plugin indent on
 "call pathogen#helptags()
 
       " solarized config
+syntax enable
 set background=dark
 colorscheme solarized
+
       " essential vim
 set nocompatible
 "filetype plugin on
