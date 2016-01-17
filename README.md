@@ -35,6 +35,8 @@
 
   http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
   http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/
+  http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/
+  http://vimcasts.org/episodes/fugitive-vim-browsing-the-git-object-database/
 
   :Git commit % 
   :Gcommit

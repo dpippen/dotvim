@@ -8,7 +8,7 @@ filetype plugin indent on
 
       " solarized config
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 
       " essential vim
