@@ -67,6 +67,15 @@
     https://github.com/elzr/vim-json
 
     folding of {...} and [...] blocks. To enable it :setlocal foldmethod=syntax (do it permanently on the ftplugin/json.vim file).
+    http://vimcasts.org/episodes/how-to-fold/
+    |zi|switch folding off|
+    |za|toggle current fold open/closed|
+    |zc|close current fold|
+    |zv|expand folds to reveal cursor|
+
+    vimrc
+    |nnoremap <Space> za|
+    |vnoremap <Space> za|
 
 #### sensible
 

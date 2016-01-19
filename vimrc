@@ -22,6 +22,10 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
+      " folding
+nnoremap <Space> za
+vnoremap <Space> za
+
       " essential vim
 "set nocompatible
 "filetype plugin on
