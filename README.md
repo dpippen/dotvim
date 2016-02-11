@@ -18,6 +18,7 @@
 ### Installation
 
     git clone git://github.com/dpippen/dotvim.git ~/.vim
+    Ultisnips requires vim >= 7.4
 
 #### Create symlinks:
 
